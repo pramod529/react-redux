@@ -15,3 +15,8 @@ test:
     - npm run lint
     - npm test
     - npm run test-node
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: reactreduxexample
